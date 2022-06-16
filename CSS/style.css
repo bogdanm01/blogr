@@ -105,7 +105,7 @@ ul {
 
 /* Hero section */
 .hero-section {
-  background: url('../images/bg-pattern-intro-desktop.svg') no-repeat 21.8% 52.5%, linear-gradient(115deg, rgba(255,142,112,1) 0%, rgba(254,65,87,1) 100%);
+  background: url('../images/bg-pattern-intro-desktop.svg') no-repeat 21.8% 52.5%, linear-gradient(135deg, rgba(255,142,112,1) 0%, rgba(254,65,87,1) 100%);
   background-size: auto;
   padding-top: 64px;
   border-bottom-left-radius: 90px;
