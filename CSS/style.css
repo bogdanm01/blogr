@@ -290,4 +290,42 @@ header .header--left nav ul li img {
   transform: translate(-29%, -52%);
 }
 
+footer {
+  background-color: #24242C;
+  border-top-right-radius: 100px;
+}
+
+footer h4 {
+  color: #fff;
+  font-weight: 500;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 64px 0;
+  align-items: flex-start;
+}
+
+footer img {
+  width: 100px;
+}
+
+.footer-column h4 {
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+
+.footer-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.footer-column ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B6B6B6;
+}
 
