@@ -74,6 +74,7 @@ ul {
   margin-bottom: 32px;
   font-size: 26px;
   letter-spacing: 3%;
+  font-family: 'Overpass', sans-serif;
 }
 
 .h3-copy-component p {
@@ -236,11 +237,9 @@ header .header--left nav ul li img {
   left: -50px;
   position: relative;
   top: 20px;
-  /* transform: translate(0, -12%); */
-  /* transform: scale(1.1); */
 }
 
-.infrastructure-section .content p{
+.infrastructure-section .content p {
   width: 87%;
 }
 
@@ -252,7 +251,6 @@ header .header--left nav ul li img {
 }
 
 .infrastructure-section .content p {
-  
   color: #dbdeff;
 }
 
@@ -260,6 +258,36 @@ header .header--left nav ul li img {
   .infrastructure-section {
     background: url('../images/bg-pattern-circles.svg') no-repeat left 83.2%, linear-gradient(90deg, rgba(46,47,65,1) 0%, rgba(61,64,99,1) 100%);
   }
+}
+
+.laptop-section .h3-copy-component {
+  width: 70%;
+}
+
+
+.laptop-section {
+  padding: 300px 0;
+  padding-top: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.laptop-section .container {
+ /* position: relative; */
+}
+
+.laptop-section .laptop  {
+  position: relative;
+ 
+}
+
+.laptop-section .laptop img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  transform: translate(-29%, -52%);
 }
 
 
