@@ -166,6 +166,7 @@ header .header--left nav ul {
 header .header--left nav ul li {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 header .header--left nav ul li img {
@@ -177,6 +178,39 @@ header .header--left nav ul li img {
   display: flex;
   align-items: center;
   gap: 32px;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-list {
+  display: none !important;
+  flex-direction: column;
+  background: #fff;
+  gap: 12px !important; 
+  padding: 24px;
+  padding-right: 36px;
+  top: 32px;
+  position: absolute;
+  cursor: default;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.visible {
+  display: flex !important;
+}
+
+.dropdown-list li {
+  color: #24242C;
+  font-weight: 400 !important;
+  
+}
+
+.dropdown-list li:hover{
+  font-weight: 500 !important;
 }
 
 /* Hero details */
