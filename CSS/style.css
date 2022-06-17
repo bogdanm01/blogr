@@ -214,3 +214,52 @@ header .header--left nav ul li img {
   right: 0;
   transform: translate(29%, 9.75%);
 }
+
+.infrastructure-section {
+  margin-top: 64px;
+  height: 400px;
+  background: url('../images/bg-pattern-circles.svg') no-repeat -220px 83.2%, linear-gradient(90deg, rgba(46,47,65,1) 0%, rgba(61,64,99,1) 100%);
+  position: relative;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+
+}
+
+.infrastructure-section .container {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.infrastructure-section img {
+  width: 550px;
+  left: -50px;
+  position: relative;
+  top: 20px;
+  /* transform: translate(0, -12%); */
+  /* transform: scale(1.1); */
+}
+
+.infrastructure-section .content p{
+  width: 87%;
+}
+
+.infrastructure-section .content h3 {
+  font-family: 'Overpass', sans-serif;
+  color: #f0f1ff;
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.infrastructure-section .content p {
+  
+  color: #dbdeff;
+}
+
+@media screen and (min-width:1441px) {
+  .infrastructure-section {
+    background: url('../images/bg-pattern-circles.svg') no-repeat left 83.2%, linear-gradient(90deg, rgba(46,47,65,1) 0%, rgba(61,64,99,1) 100%);
+  }
+}
+
+
