@@ -7,7 +7,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Live preview](#live-preview)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -29,9 +29,8 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-### Links
+### Live Preview
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://bogdanm01-blogr.netlify.app/](https://bogdanm01-blogr.netlify.app/)
 
 ## My process
